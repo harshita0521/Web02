@@ -508,6 +508,40 @@ form button:hover{
 
 
 
+/* Tablet Screen */
+
+@media(max-width:992px){
+
+    .home{
+        flex-direction: column;
+    }
+
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .why-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .blog-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .about-contact{
+        grid-template-columns: 1fr;
+    }
+
+  .footer-grid{
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+  }
+
+  .social-icons{
+    justify-content:flex-start;
+  }
+
+}
 
 /* Mobile Screen */
 
@@ -539,6 +573,10 @@ form button:hover{
     .home{
         flex-direction: column;
         padding-top: 120px;
+    }
+
+    .home-text h1{
+        font-size: 50px;
     }
 
     .home-image{
