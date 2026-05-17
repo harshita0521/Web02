@@ -12,6 +12,7 @@ body{
     font-family: Arial, sans-serif;
     background: #f8f8f8;
     color: #222;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -328,7 +329,7 @@ body{
 
 .about-text{
     flex: 1;
-    width: 420px;
+   max-width: 420px;
 }
 
 .about-line{
