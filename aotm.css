@@ -567,6 +567,10 @@ form button:hover{
         display: flex;
     }
 
+    .logo{
+        font-size: 28px;
+    }
+
     .arena-logo{
         width: 150px;
     }
