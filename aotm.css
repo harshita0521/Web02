@@ -321,7 +321,7 @@ body{
 
 .about-content{
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
     gap:40px;
 
@@ -603,7 +603,7 @@ form button:hover{
 
     .about-content{
         flex-direction: column;
-        text-align: center;
+        
     }
 
     .about-text{
